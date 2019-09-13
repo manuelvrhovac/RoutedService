@@ -8,12 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		6480C050232BF2D000942E69 /* RoutedService.h in Headers */ = {isa = PBXBuildFile; fileRef = 6480C04E232BF2D000942E69 /* RoutedService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6480C06A232BF3A700942E69 /* RoutedCodableService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6480C062232BF3A700942E69 /* RoutedCodableService.swift */; };
+		6480C06B232BF3A700942E69 /* RoutedDataService+RxSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6480C063232BF3A700942E69 /* RoutedDataService+RxSwift.swift */; };
+		6480C06C232BF3A700942E69 /* RoutedDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6480C064232BF3A700942E69 /* RoutedDataService.swift */; };
+		6480C06D232BF3A700942E69 /* URLRequestRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6480C065232BF3A700942E69 /* URLRequestRouter.swift */; };
+		6480C06E232BF3A700942E69 /* URLRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6480C066232BF3A700942E69 /* URLRouter.swift */; };
+		6480C06F232BF3A700942E69 /* RoutedCodableService+RxSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6480C067232BF3A700942E69 /* RoutedCodableService+RxSwift.swift */; };
+		6480C070232BF3A700942E69 /* ServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6480C068232BF3A700942E69 /* ServiceError.swift */; };
+		6480C071232BF3A700942E69 /* RouterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6480C069232BF3A700942E69 /* RouterService.swift */; };
+		6480C073232BF3D100942E69 /* CustomCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6480C072232BF3D000942E69 /* CustomCodable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6480C04B232BF2D000942E69 /* RoutedService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RoutedService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6480C04E232BF2D000942E69 /* RoutedService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoutedService.h; sourceTree = "<group>"; };
 		6480C04F232BF2D000942E69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6480C062232BF3A700942E69 /* RoutedCodableService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoutedCodableService.swift; path = ../../ChallengeHomeAway/NetworkAPI/RoutedCodableService.swift; sourceTree = "<group>"; };
+		6480C063232BF3A700942E69 /* RoutedDataService+RxSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "RoutedDataService+RxSwift.swift"; path = "../../ChallengeHomeAway/NetworkAPI/RoutedDataService+RxSwift.swift"; sourceTree = "<group>"; };
+		6480C064232BF3A700942E69 /* RoutedDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoutedDataService.swift; path = ../../ChallengeHomeAway/NetworkAPI/RoutedDataService.swift; sourceTree = "<group>"; };
+		6480C065232BF3A700942E69 /* URLRequestRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = URLRequestRouter.swift; path = ../../ChallengeHomeAway/NetworkAPI/URLRequestRouter.swift; sourceTree = "<group>"; };
+		6480C066232BF3A700942E69 /* URLRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = URLRouter.swift; path = ../../ChallengeHomeAway/NetworkAPI/URLRouter.swift; sourceTree = "<group>"; };
+		6480C067232BF3A700942E69 /* RoutedCodableService+RxSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "RoutedCodableService+RxSwift.swift"; path = "../../ChallengeHomeAway/NetworkAPI/RoutedCodableService+RxSwift.swift"; sourceTree = "<group>"; };
+		6480C068232BF3A700942E69 /* ServiceError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ServiceError.swift; path = ../../ChallengeHomeAway/NetworkAPI/ServiceError.swift; sourceTree = "<group>"; };
+		6480C069232BF3A700942E69 /* RouterService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RouterService.swift; path = ../../ChallengeHomeAway/NetworkAPI/RouterService.swift; sourceTree = "<group>"; };
+		6480C072232BF3D000942E69 /* CustomCodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomCodable.swift; path = ../../ChallengeHomeAway/NetworkAPI/CustomCodable.swift; sourceTree = "<group>"; };
+		6480C074232BF4E600942E69 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,7 +49,8 @@
 		6480C041232BF2D000942E69 = {
 			isa = PBXGroup;
 			children = (
-				6480C04D232BF2D000942E69 /* RoutedService */,
+				6480C074232BF4E600942E69 /* Package.swift */,
+				6480C04D232BF2D000942E69 /* Sources */,
 				6480C04C232BF2D000942E69 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,13 +63,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6480C04D232BF2D000942E69 /* RoutedService */ = {
+		6480C04D232BF2D000942E69 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				6480C04E232BF2D000942E69 /* RoutedService.h */,
+				6480C072232BF3D000942E69 /* CustomCodable.swift */,
+				6480C062232BF3A700942E69 /* RoutedCodableService.swift */,
+				6480C067232BF3A700942E69 /* RoutedCodableService+RxSwift.swift */,
+				6480C064232BF3A700942E69 /* RoutedDataService.swift */,
+				6480C063232BF3A700942E69 /* RoutedDataService+RxSwift.swift */,
+				6480C069232BF3A700942E69 /* RouterService.swift */,
+				6480C068232BF3A700942E69 /* ServiceError.swift */,
+				6480C065232BF3A700942E69 /* URLRequestRouter.swift */,
+				6480C066232BF3A700942E69 /* URLRouter.swift */,
 				6480C04F232BF2D000942E69 /* Info.plist */,
 			);
-			path = RoutedService;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,6 +124,7 @@
 				TargetAttributes = {
 					6480C04A232BF2D000942E69 = {
 						CreatedOnToolsVersion = 11.0;
+						LastSwiftMigration = 1100;
 					};
 				};
 			};
@@ -131,6 +161,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6480C071232BF3A700942E69 /* RouterService.swift in Sources */,
+				6480C06B232BF3A700942E69 /* RoutedDataService+RxSwift.swift in Sources */,
+				6480C06C232BF3A700942E69 /* RoutedDataService.swift in Sources */,
+				6480C06E232BF3A700942E69 /* URLRouter.swift in Sources */,
+				6480C06F232BF3A700942E69 /* RoutedCodableService+RxSwift.swift in Sources */,
+				6480C06D232BF3A700942E69 /* URLRequestRouter.swift in Sources */,
+				6480C073232BF3D100942E69 /* CustomCodable.swift in Sources */,
+				6480C070232BF3A700942E69 /* ServiceError.swift in Sources */,
+				6480C06A232BF3A700942E69 /* RoutedCodableService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +299,7 @@
 		6480C054232BF2D000942E69 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = CTG4693F3N;
@@ -268,6 +308,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = RoutedService/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -276,6 +317,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.manvrh.RoutedService;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,6 +326,7 @@
 		6480C055232BF2D000942E69 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = CTG4693F3N;
@@ -292,6 +335,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = RoutedService/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
