@@ -5,7 +5,7 @@
 
 import Foundation
 
-// swift-tools-version:5.0
+// swift-tools-version:5.1
 
 import PackageDescription
 
